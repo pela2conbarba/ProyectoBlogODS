@@ -1,3 +1,5 @@
 django
 django-ckeditor
 pillow
+django-bootstrap4
+bootstrap4
