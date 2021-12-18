@@ -17,7 +17,7 @@ class PostsFeedView(ListView):
     template_name = 'posts/index.html'
     model = Post
     ordering = ('-created',)
-    paginate_by = 10
+    paginate_by = 18
     context_object_name = 'posts'
     queryset = Post.objects.filter(is_draft=False)
 
